@@ -230,3 +230,11 @@ else:
 Mdy = min(min(Wpx,Wpy)*10**-3*fy,1.6*min(Wex,Wey)*10**-3*fy)
 st.markdown("Major Moment Capacity: " + str(format(Mdx, ".2f")) + "kNm")
 st.markdown("Minor Moment Capacity: " + str(format(Mdy, ".2f")) + "kNm")
+
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
