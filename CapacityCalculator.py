@@ -43,7 +43,8 @@ st.sidebar.header("Section Properties & Design Type")
 
 my_sheet_main = 'Sayfa1' # change it to your sheet name
 main_file_name = 'IPE_HEB.xlsx' # change it to the name of your excel file
-df_main = read_excel(main_file_name, sheet_name = my_sheet_main, engine='openpyxl')
+# df_main = read_excel(main_file_name, sheet_name = my_sheet_main, engine='openpyxl')
+df_main = read_excel(main_file_name, sheet_name = my_sheet_main)
 # print(df_main.head()) # shows headers with top 5 rows
 # print(df_main.info())
 
